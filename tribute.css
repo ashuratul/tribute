@@ -17,7 +17,7 @@ body {
   background-attachment: fixed;
 }
 
-/*mobile friendly background*/
+
 body::before {
   content: '';
   position: fixed;
