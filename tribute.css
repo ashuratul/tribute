@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: url('https://tvindialive.in/wp/wp-content/uploads/2016/10/M-S-Dhoni-Movie_TIL.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  font-family: 'Spartan', Arial, sans-serif;
+  margin: 0; 
+  background-attachment: fixed;
+}
+
+/*mobile friendly background*/
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: url('https://tvindialive.in/wp/wp-content/uploads/2016/10/M-S-Dhoni-Movie_TIL.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main { 
+  border-radius: 15px 15px 0 0;
+  font-size: 1.5rem;
+  line-height: 2;
+  margin: auto;
+  opacity: .97;  
+  padding-bottom: 25px;
+  text-align: center;
+  width: 85%;
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 100%;
+  }
+}
+
+#title {
+  border-radius: 15px 15px 0 0;
+  font-family: 'Permanent Marker', 'Trebuchet MS', cursive;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  #title {
+    font-size: 2.5rem;
+  }
+}
+
+#img-div {
+  background-color: #003;
+  border-radius: 20px;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+@media (max-width: 800px) {
+  #img-div {
+    width: 75%;
+  }
+}
+
+#image { 
+  border-radius: 10px;
+  border: solid 1px black;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+#img-caption {
+  color: #fff;
+  font-size: 1.3rem;
+  padding-top: 15px;
+}
+
+@media (max-width: 800px) {
+  #img-caption {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 450px) {
+  #img-caption {
+    font-size: 0.9rem;
+  }
+}
+
+#tribute-info {
+  background-color: #eaeaea;
+  border-radius: 3px 3px 0 0;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+  #tribute-info {
+    font-size: 1.3rem;
+  }
+}
+
+h3{
+  font-family: 'Trebuchet MS', 'Spartan', sans-serif;
+  font-size: 3rem; 
+  padding-top: 10px;
+}
+
+ul {
+  margin: auto;
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  ul {
+    width: 75%;
+  }
+}
+
+li {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+footer { 
+  background-color: #aeaeae;
+  font-weight: bold;
+  padding: 20px;
+}
